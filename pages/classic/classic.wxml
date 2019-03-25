@@ -1,0 +1,2 @@
+<!--pages/classic/classic.wxml-->
+<v-like class="like"></v-like>
