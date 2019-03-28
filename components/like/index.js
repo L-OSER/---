@@ -25,6 +25,7 @@ Component({
      */
     methods: {
         onLike(event) {
+            // 自定义事件
             let like = this.properties.like;
             let count = this.properties.count;
 
@@ -33,6 +34,12 @@ Component({
                 count:count,
                 like:!like
             })
+            // 激活
+            let behavior = this.properties.like ? 'like' : 'cancel'
+            // 参数1 自定义事件名字 参数2,发送参数  参数3
+            this.triggerEvent('like',{
+                behavior:behavior
+            },{})
         }
     }
 })
