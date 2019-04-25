@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ea5662-fb4e-4505-aaa9-2d4ea4c4046d" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/components/classic/classic-beh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/classic/essay/images/essay@tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/classic/music/images/music@tag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/classic/music/images/player@pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tab/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tab/book@highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tab/classic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tab/classic@highlight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tab/my.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tab/my@highlight.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/movie/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/movie/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/movie/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/movie/index.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/classic/movie/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/classic/movie/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/epsoide/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/epsoide/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/epsoide/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/epsoide/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/like/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/like/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/classic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/like.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/like.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/classic/classic.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/classic/classic.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,8 +28,8 @@
       <file leaf-file-name="classic.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/classic/classic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="-308">
+              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -219,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,19 +241,12 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="classic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="book" type="b2602c69:ProjectViewProjectNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,23 +306,23 @@
       <workItem from="1554946451527" duration="26769000" />
       <workItem from="1555034682302" duration="5659000" />
       <workItem from="1555126007030" duration="2797000" />
+      <workItem from="1556197110146" duration="1893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111422000" />
+    <option name="totallyTimeSpent" value="113315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12539515" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="11" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293348" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -669,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/classic/classic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="-308">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
