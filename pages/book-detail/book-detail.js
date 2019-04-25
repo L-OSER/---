@@ -1,51 +1,47 @@
-// pages/book/book.js
+  // pages/book-detail/book-detail.js
 import {BookModel} from "../../models/book";
 
-let bookModel = new BookModel()
-
+const bookModel = new BookModel()
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        books:[]
+        comments:[],
+        book:null,
+        likeStatus:false,
+        likeCount:0
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        // 错误用法
-        /*const hotList = bookModel.getHotList()
-        hotList.then(
-            res => {
-                console.log(res)
-                bookModel.getMyHotCount().then((res) => {
-                    console.log(res)
-                    bookModel.getMyHotCount().then(res => {
-                        console.log(res)
-                    })
-                })
-            }
-        )*/
+        // bid
+        const bid = options.bid
+        const detail = bookModel.getDetail(bid)
+        const comments = bookModel.getComment(bid)
+        const likeStatus = bookModel.getLikeStatus(bid)
 
-        // 正确用法
-     /*   bookModel.getHotList().then(res => {
-            console.log(res)
-            return bookModel.getMyHotCount()
-        }).then(res => {
-            console.log(res)
-            return bookModel.getMyHotCount()
-        }).then(res => {
-            console.log(res)
-        })*/
+        detail.then(res=>{
+            this.setData({
+                book:res
+            })
+        })
 
-     bookModel.getHotList().then(res=>{
-         this.setData({
-             books:res
-         })
-     })
+        comments.then(res=>{
+            this.setData({
+                comments:res
+            })
+        })
+
+        likeStatus.then(res=>{
+            this.setData({
+                likeStatus: res.like_status,
+                likeCount: res.fav_nums
+            })
+        })
     },
 
     /**
