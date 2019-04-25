@@ -62,10 +62,9 @@
     font-size: 22rpx;
     color: #aaaaaa;
 }
-
-.comment-container > v-tag:nth-child(1)>view {
+.comment-container> v-tag:nth-child(1) .ex-tag{
     background-color: #fffbdd;
 }
-.comment-container > v-tag:nth-child(2)>view {
+.comment-container > v-tag:nth-child(2) .ex-tag{
     background-color: #eefbff;
 }
