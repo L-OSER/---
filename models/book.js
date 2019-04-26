@@ -1,34 +1,58 @@
 import {HTTP} from "../util/http-p"
 
 class BookModel extends HTTP {
-    getHotList(){
+    getHotList() {
         return this.request({
-            url:'book/hot_list'
+            url: 'book/hot_list'
         })
     }
-    getMyHotCount(){
+
+    search(start, q) {
         return this.request({
-            url:'book/favor/count'
+            url:'book/search?summary=1',
+            data:{
+                q:q,
+                start:start
+            }
+        })
+    }
+
+    getMyHotCount() {
+        return this.request({
+            url: 'book/favor/count'
         })
     }
 
     // 书本详情
     getDetail(bid) {
         return this.request({
-            url:`book/${bid}/detail`
+            url: `book/${bid}/detail`
         })
     }
+
     //书本喜欢状态
     getLikeStatus(bid) {
         return this.request({
-            url:`book/${bid}/favor`
+            url: `book/${bid}/favor`
         })
     }
 
     //获取短评
     getComment(bid) {
         return this.request({
-            url:`book/${bid}/short_comment`
+            url: `book/${bid}/short_comment`
+        })
+    }
+
+//    短评
+    postComment(bid, comment) {
+        return this.request({
+            url: 'book/add/short_comment',
+            method: 'POST',
+            data: {
+                book_id: bid,
+                content: comment
+            }
         })
     }
 }

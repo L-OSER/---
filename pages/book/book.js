@@ -1,6 +1,8 @@
 // pages/book/book.js
 import {BookModel} from "../../models/book";
 
+import {random} from "../../util/common";
+
 let bookModel = new BookModel()
 
 Page({
@@ -9,7 +11,9 @@ Page({
      * 页面的初始数据
      */
     data: {
-        books:[]
+        books: [],
+        searching: false,
+        more:''
     },
 
     /**
@@ -31,21 +35,40 @@ Page({
         )*/
 
         // 正确用法
-     /*   bookModel.getHotList().then(res => {
-            console.log(res)
-            return bookModel.getMyHotCount()
-        }).then(res => {
-            console.log(res)
-            return bookModel.getMyHotCount()
-        }).then(res => {
-            console.log(res)
-        })*/
+        /*   bookModel.getHotList().then(res => {
+               console.log(res)
+               return bookModel.getMyHotCount()
+           }).then(res => {
+               console.log(res)
+               return bookModel.getMyHotCount()
+           }).then(res => {
+               console.log(res)
+           })*/
 
-     bookModel.getHotList().then(res=>{
-         this.setData({
-             books:res
-         })
-     })
+        bookModel.getHotList().then(res => {
+            this.setData({
+                books: res
+            })
+        })
+    },
+    /**
+     * 页面上拉触底事件的处理函数
+     */
+    onReachBottom(){
+        this.setData({
+            more:random(16)
+        })
+    },
+
+    onSearching(event) {
+        this.setData({
+            searching: true
+        })
+    },
+    onCancel() {
+        this.setData({
+            searching: false
+        })
     },
 
     /**
@@ -83,12 +106,7 @@ Page({
 
     },
 
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom: function () {
 
-    },
 
     /**
      * 用户点击右上角分享
