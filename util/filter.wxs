@@ -1,0 +1,8 @@
+var format = function (text) {
+  // wxs
+  return '12313'
+}
+
+module.exports = {
+  format: format
+}

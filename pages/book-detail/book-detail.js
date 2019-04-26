@@ -1,4 +1,4 @@
-// pages/book-detail/book-detail.js
+  // pages/book-detail/book-detail.js
 import {BookModel} from "../../models/book";
 
 const bookModel = new BookModel()
@@ -43,7 +43,9 @@ Page({
             })
         })
     },
-
+    a(){
+     return 'abc'
+    },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
