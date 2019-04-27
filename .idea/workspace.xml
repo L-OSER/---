@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75ea5662-fb4e-4505-aaa9-2d4ea4c4046d" name="默认" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
       <change afterPath="$PROJECT_DIR$/images/book/quality.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/book/tip.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/images/icon/search.png" afterDir="false" />
@@ -20,8 +14,6 @@
       <change beforePath="$PROJECT_DIR$/pages/book/book.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/book/book.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/http.js" afterDir="false" />
->>>>>>> e3cb49a413d18bb72a48ae4d03c3680c170f3d06
->>>>>>> c1414091a5ae9a1d12e0e7af7c44c2e977cdd22f
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,13 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="book.wxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="book.wxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/book/book.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-<<<<<<< HEAD
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-=======
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -50,16 +39,8 @@
       <file leaf-file-name="book-detail.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.js">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="-308">
-              <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-=======
             <state relative-caret-position="580">
               <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="22" />
->>>>>>> e3cb49a413d18bb72a48ae4d03c3680c170f3d06
             </state>
           </provider>
         </entry>
@@ -69,7 +50,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
               <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
->>>>>>> c1414091a5ae9a1d12e0e7af7c44c2e977cdd22f
             </state>
           </provider>
         </entry>
@@ -78,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/components/tag/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -87,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/components/tag/index.wxss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/pages/book/book.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/components/tag/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -113,8 +93,8 @@
       <file leaf-file-name="book-detail.wxss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+            <state relative-caret-position="220">
+              <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -122,7 +102,7 @@
       <file leaf-file-name="book.wxss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/book/book.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
+            <state relative-caret-position="724">
               <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
             </state>
           </provider>
@@ -197,9 +177,9 @@
         <option value="$PROJECT_DIR$/components/tag/index.js" />
         <option value="$PROJECT_DIR$/pages/book/book.wxss" />
         <option value="$PROJECT_DIR$/pages/book-detail/book-detail.wxss" />
+        <option value="$PROJECT_DIR$/pages/book-detail/book-detail.js" />
         <option value="$PROJECT_DIR$/pages/book/book.wxml" />
         <option value="$PROJECT_DIR$/pages/book-detail/book-detail.wxml" />
-        <option value="$PROJECT_DIR$/pages/book-detail/book-detail.js" />
       </list>
     </option>
   </component>
@@ -287,8 +267,6 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -301,7 +279,6 @@
             <path>
               <item name="book" type="b2602c69:ProjectViewProjectNode" />
               <item name="book" type="462c0819:PsiDirectoryNode" />
->>>>>>> e3cb49a413d18bb72a48ae4d03c3680c170f3d06
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -368,38 +345,22 @@
       <workItem from="1554946451527" duration="26769000" />
       <workItem from="1555034682302" duration="5659000" />
       <workItem from="1555126007030" duration="2797000" />
-<<<<<<< HEAD
-      <workItem from="1556197110146" duration="1893000" />
-=======
       <workItem from="1555916504501" duration="1674000" />
       <workItem from="1555918428742" duration="6528000" />
       <workItem from="1555981462784" duration="11974000" />
       <workItem from="1555996520766" duration="613000" />
       <workItem from="1556004189452" duration="654000" />
       <workItem from="1556096655610" duration="960000" />
-<<<<<<< HEAD
-      <workItem from="1556161589396" duration="19590000" />
-      <workItem from="1556240114997" duration="722000" />
-=======
       <workItem from="1556161589396" duration="19312000" />
->>>>>>> e3cb49a413d18bb72a48ae4d03c3680c170f3d06
->>>>>>> c1414091a5ae9a1d12e0e7af7c44c2e977cdd22f
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="154137000" />
-=======
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="113315000" />
-=======
     <option name="totallyTimeSpent" value="153137000" />
->>>>>>> e3cb49a413d18bb72a48ae4d03c3680c170f3d06
->>>>>>> c1414091a5ae9a1d12e0e7af7c44c2e977cdd22f
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12539515" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -630,6 +591,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -684,28 +648,28 @@
     <entry file="file://$PROJECT_DIR$/pages/book/book.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/tag/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/book/book.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
+        <state relative-caret-position="724">
           <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        <state relative-caret-position="220">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -719,48 +683,35 @@
     <entry file="file://$PROJECT_DIR$/components/tag/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/tag/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/book/book.wxml">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="384">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="-308">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-=======
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/book-detail/book-detail.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="22" />
->>>>>>> e3cb49a413d18bb72a48ae4d03c3680c170f3d06
->>>>>>> c1414091a5ae9a1d12e0e7af7c44c2e977cdd22f
         </state>
       </provider>
     </entry>
