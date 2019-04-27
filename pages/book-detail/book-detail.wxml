@@ -8,9 +8,9 @@
     </view>
     <view class="sub-container">
         <text class="headline">短评</text>
-        <text class="shadow" wx:if="{{comments.comments==false}}">还没有短评</text>
+        <text class="shadow" wx:if="{{comments==false}}">还没有短评</text>
         <view class="comment-container">
-            <block wx:for="{{util.limit(comments.comments,10)}}" wx:key="index">
+            <block wx:for="{{util.limit(comments,10)}}" wx:key="index">
                 <v-tag tag-class="ex-tag" text="{{item.content}}">
                     <text class="num" slot="after">{{'+'+item.nums}}</text>
                 </v-tag>
