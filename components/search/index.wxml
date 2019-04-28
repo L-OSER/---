@@ -37,12 +37,14 @@
     </view>
     <view wx:else class="books-container">
         <block wx:for="{{dataArray}}" wx:key="{{item.id}}">
-            <v-book book="{{item}}" class="book"></v-book>
+            <v-book book="{{item}}" likeStatus="{{false}}" class="book"></v-book>
         </block>
     </view>
 
     <v-loading class="loading-center" wx:if="{{loadingCenter}}" />
 
     <v-loading class="loading" wx:if="{{loading}}" />
+
+    <text wx:if="{{noneResult}}" class="empty-tip">没有搜索到书籍</text>
 
 </view>

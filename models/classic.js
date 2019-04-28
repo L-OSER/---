@@ -47,6 +47,14 @@ class ClassicModel extends HTTP {
     return latestIndex == index ? true : false
   }
 
+  getMyFavor(success){
+    const params = {
+      url:'classic/favor',
+        success
+    }
+    this.request(params)
+  }
+
   //缓存期刊最新index
   _setLatestIndex(index) {
     wx.setStorageSync('latest', index)
