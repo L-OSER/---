@@ -2,8 +2,12 @@
   "pages": [
     "pages/classic/classic",
     "pages/book/book",
+    "pages/book-detail/book-detail",
     "pages/my/my",
-    "pages/book-detail/book-detail"
+    "pages/about/about",
+    "pages/course/course",
+    "pages/share/share",
+    "pages/test/test"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

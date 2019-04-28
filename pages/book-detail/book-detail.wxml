@@ -52,13 +52,16 @@
     </view>
     <view class="like-container">
         <v-like bind:like="onLike" class="like" like="{{likeStatus}}" count="{{likeCount}}"></v-like>
+        <v-button open-type="share" class="share-btn">
+            <image slot="img" class="share" src="/images/icon/share.png"></image>
+        </v-button>
     </view>
 </view>
 
 <view class="posting-container" wx:if="{{posting}}">
     <view class="post-header">
         <text wx:if="{{comments.comments==true}}">仅可点击标签+1</text>
-        <text  wx:else>还没有短评</text>
+        <text wx:else>还没有短评</text>
         <text bind:tap="onCancel" class="cancel">取消</text>
     </view>
     <view class="comment-container">
@@ -70,7 +73,7 @@
     </view>
     <input bindconfirm="onPost" class="post" focus="{{posting}}" type="text" maxlength="12" placeholder="短评最多12个字"/>
 </view>
-<v-mask wx:if="{{posting}}" />
+<v-mask wx:if="{{posting}}"/>
 
 <wxs module="tool">
     var highlight = function(index) {

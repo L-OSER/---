@@ -1,0 +1,49 @@
+<!--
+<image src="https://img.zcool.cn/community/01541f5541a46f000001a64bd0cb0e.jpg@1280w_1l_2o_100sh.jpg"></image>
+<button bind:tap="saveImg">保存</button>-->
+<!--保存图片-->
+<!--
+
+<view class="">
+    <view class="canvasStyle">
+        <canvas canvas-id="myCanvas" bindtouchstart="start"
+                bindtouchmove="move" />
+        <view class="Canvas_Text"><image src="{{imageUrl}}"></image></view>
+        &lt;!&ndash;//这里是为了解决文字拖动时会有白光闪现&ndash;&gt;
+    </view>
+    <view class="chooseImage">
+        <view class="Btn BtnImg_select" bindtap="chooseImageFun">先选择图片</view>
+        <view class="Input_text">
+            <input placeholder="请输入装逼内容" bindinput="InputFuns" />
+        </view>
+        <view wx:if="{{showst}}" class="Btn generateBtn" bindtap="Okgenerate">
+            <button>生成，并保存</button>
+            <view>(当你点击生成的那一刻，恭喜你装逼生涯就此开始了)</view>
+        </view>
+        <view wx:if="{{!showst}}" class="Btn generateBtn grayBtn">
+            生成，并保存
+            <view>(当你点击生成的那一刻，恭喜你装逼生涯就此开始了)</view>
+        </view>
+    </view>
+</view>-->
+
+<!--
+
+<view class="bg">
+    <canvas canvas-id="shareCanvas" class="canvas"></canvas>
+    <image src="{{img}}" class="img" bindtap="previewImg"></image>
+</view>
+
+<view class="canvas-box">
+    <canvas  hidden="{{canvasHidden}}" style="width: 686rpx;height: 686rpx;background:#f1f1f1;" canvas-id="mycanvas"/>
+</view>
+-->
+
+<button bindtap='gotoSubmit'>生成图片</button>
+<!-- 弹框 -->
+<view class='tankuang2' wx:if="{{showhaibao}}">
+    <view class='container1' bindtap="previewImg">
+        <image style="width:100%;height:80%"  src="{{imagePath}}" ></image>
+    </view>
+</view>
+<canvas style="width:{{windowW}}px;height:{{windowH}}px;display:{{maskHidden?'none':''}}" canvas-id="mycanvas" />

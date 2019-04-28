@@ -1,0 +1,6 @@
+<!--pages/test/test.wxml-->
+<canvas class="canv" canvas-id="shareCanvas"
+        style='width:{{canvasWidth}}px; height:{{canvasHeight}}px;'>
+</canvas>
+<!--<image src="{{url}}" mode="aspectFit"></image>-->
+
