@@ -1,17 +1,17 @@
 .canv {
-    position: fixed;
-    top: -1000px
+  position: fixed;
+  top: -1000px
 }
 
 page {
   height: 100%;
-    background-color: #333;
+  background-color: #333;
 }
 .shareImage{
-    padding: 30rpx;
+  padding: 30rpx;
 }
 .shareImage image{
-    width: 100%;
+  width: 100%;
 }
 .container {
   height: 100%;
@@ -19,16 +19,17 @@ page {
 
 .bigImage {
   padding: 50rpx 50rpx 30rpx;
-    position: relative;
+  position: relative;
 }
 .bigImage text{
-    color: #fff;
-    position: absolute;
-    z-index: 1;
-    left: 50%;
-    margin-left: -100px;
-    /*top: 50%;*/
-    bottom: 100px;
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -100px;
+  /*top: 50%;*/
+  bottom: 100px;
+  width: 200px;
 }
 
 .bigImage image {
@@ -40,7 +41,7 @@ page {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-    padding:0 10rpx;
+  padding:0 10rpx;
 }
 
 .footer image {
@@ -61,7 +62,7 @@ page {
   top: 0;
   left: 0;
   width: 100%;
-    z-index: 20;
+  z-index: 20;
   overflow: hidden;
 }
 
@@ -119,7 +120,7 @@ page {
 
   to {
     opacity: 1;
-      z-index: 10;
+    z-index: 10;
   }
 }
 

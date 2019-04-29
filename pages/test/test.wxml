@@ -21,7 +21,7 @@
         <text>{{importValue}}</text>
     </view>
     <view class="a">
-        <view class="footer animated {{nextIndex==0?'fadeIn':'fadeOut'}}">
+        <view hidden="{{nextIndex!=0}}" class="footer {{nextIndex==0?'fadeIn':'fadeOut'}}">
             <block wx:for="{{imgList}}" wx:key="{{index}}">
                 <image class="{{activeIndex==index?'active':''}}" data-url="{{item.url}}" data-index="{{index}}"
                        bindtap="selectImage"
@@ -29,9 +29,9 @@
             </block>
 
         </view>
-        <view class="footer-textarea animated {{nextIndex==1?'fadeIn':'fadeOut'}}">
+        <view hidden="{{nextIndex!=1}}" class="footer-textarea animated {{nextIndex==1?'fadeIn':'fadeOut'}}">
             <textarea bindinput="textArae" maxlength="30" placeholder-style="color:#fff"
-                      placeholder="为保证效果,请输入30字以内"></textarea>
+                      placeholder="为保证效果,请输入30字以内" ></textarea>
         </view>
     </view>
 </view>
