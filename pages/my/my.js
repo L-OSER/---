@@ -25,6 +25,10 @@ Page({
                 console.log(res)
         }
         })
+        this.setData({
+            authorized: wx.getStorageSync('authorized'),
+            userInfo:wx.getStorageSync('userInfo')
+        })
         this.getMyBooCount()
         this.userAuthorized()
         this.getMyFavor()
@@ -86,7 +90,7 @@ Page({
                 userInfo,
                 authorized:true
             })
-            console.log(userInfo)
+            wx.setStorageSync('userInfo',userInfo)
         }
     },
 

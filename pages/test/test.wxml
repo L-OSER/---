@@ -1,6 +1,38 @@
 <!--pages/test/test.wxml-->
-<canvas class="canv" canvas-id="shareCanvas"
-        style='width:{{canvasWidth}}px; height:{{canvasHeight}}px;'>
-</canvas>
-<!--<image src="{{url}}" mode="aspectFit"></image>-->
+
+
+<view class="shareImage" wx:if="{{nextIndex==2}}">
+    <canvas class="canv" canvas-id="shareCanvas"
+            style='width:{{canvasWidth}}px; height:{{bigHeight}}px;'>
+    </canvas>
+    <image src="{{url}}" mode="widthFix"></image>
+</view>
+
+<view class="container" wx:if="{{nextIndex<2}}">
+
+    <view class="header">
+
+        <view style="float: left" wx:if="{{nextIndex==1}}" bind:tap="prevImage">上一步</view>
+        <view style="float: right" wx:if="{{nextIndex==0}}" bind:tap="nextImage">下一步</view>
+        <view style="float: right" wx:if="{{nextIndex==1}}" bind:tap="createImage">生成图片</view>
+    </view>
+    <view class="bigImage">
+        <image mode="widthFix" src="{{currImage}}"></image>
+        <text>{{importValue}}</text>
+    </view>
+    <view class="a">
+        <view class="footer animated {{nextIndex==0?'fadeIn':'fadeOut'}}">
+            <block wx:for="{{imgList}}" wx:key="{{index}}">
+                <image class="{{activeIndex==index?'active':''}}" data-url="{{item.url}}" data-index="{{index}}"
+                       bindtap="selectImage"
+                       src="{{item.url}}"></image>
+            </block>
+
+        </view>
+        <view class="footer-textarea animated {{nextIndex==1?'fadeIn':'fadeOut'}}">
+            <textarea bindinput="textArae" maxlength="30" placeholder-style="color:#fff"
+                      placeholder="为保证效果,请输入30字以内"></textarea>
+        </view>
+    </view>
+</view>
 

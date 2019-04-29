@@ -1,4 +1,136 @@
-.canv{
-  /*  position: fixed;
-    top: -1000px*/
+.canv {
+    position: fixed;
+    top: -1000px
+}
+
+page {
+  height: 100%;
+    background-color: #333;
+}
+.shareImage{
+    padding: 30rpx;
+}
+.shareImage image{
+    width: 100%;
+}
+.container {
+  height: 100%;
+}
+
+.bigImage {
+  padding: 50rpx 50rpx 30rpx;
+    position: relative;
+}
+.bigImage text{
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -100px;
+    /*top: 50%;*/
+    bottom: 100px;
+}
+
+.bigImage image {
+  width: 100%;
+}
+
+.footer {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    padding:0 10rpx;
+}
+
+.footer image {
+  width: 175rpx;
+  height: 170rpx;
+  margin-bottom: 10rpx;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+}
+
+.footer image.active {
+  border-color: blue;
+}
+
+.header {
+  color: #ea6f5a;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+    z-index: 20;
+  overflow: hidden;
+}
+
+.header>view {
+  padding: 20rpx 20rpx 10rpx;
+}
+
+.footer-textarea {
+  padding: 0 50rpx;
+  color: #fff;
+  font-size: 26rpx;
+}
+
+.footer-textarea textarea {
+  border-radius: 6px;
+  padding: 10rpx;
+  box-sizing: border-box;
+  width: 100%;
+  height: 250rpx;
+  background-color: #666;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+      z-index: 10;
+  }
+}
+
+.a {
+  position: relative;
+}
+
+.a>view {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
